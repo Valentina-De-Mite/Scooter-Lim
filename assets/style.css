@@ -5,24 +5,27 @@
 
 body {
     background-image: url(./Images/background.jpg);
-    height: 1000px;
+    height: 85vh;
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
+header {
+    max-width: 100%;
+}
 
 .container {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 2%;
     position: absolute;
-    top: 30px;
-    left: 400px;
-    margin-right: 10px;
+    top: 1%;
+    left: 20%;
+    margin-right: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 65%;
-    height: 110%;
+    width: 61%;
+    height: 100%;
     border-radius: 20px;
 }
 
@@ -30,9 +33,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
-    margin-top: 150px;
-    margin-bottom: 15px;
+    width: 18%;
+    margin-top: 120px;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -43,7 +46,7 @@ h1 {
 }
 
 .navbar {
-    width: 1360px;
+    width: 1250px;
     height: 40px;
     background-color: #00DD00;
     margin: auto;
@@ -54,19 +57,20 @@ h1 {
 #buttons {
     position: absolute;
     top: 10px;
-    left: 500px;
+    left: 40%;
 }
 
 main {
     position: relative;
     margin: auto;
+    max-width: 100%;
 }
 
 .monopattini {
     color: white;
     font-family: 'Inter', sans-serif;
-    margin-top: 20px;
-    margin-left: 140px;
+    margin-top: 1%;
+    margin-left: 10%;
 }
 
 .fa-square-o {
@@ -76,6 +80,14 @@ main {
 
 }
 
+
+p {
+    font-size: larger;
+}
+
+span {
+    font-size: larger;
+}
 
 .square {
     margin-top: 5px;
